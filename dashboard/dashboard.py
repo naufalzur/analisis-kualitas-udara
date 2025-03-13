@@ -16,7 +16,7 @@ st.markdown("""
 """)
 
 # Memuat data
-data_path = "main_data.csv"  # Path relatif di folder dashboard/
+data_path = "dashboard/main_data.csv"  # Path relatif di folder dashboard/
 try:
     df = pd.read_csv(data_path)
     df['datetime'] = pd.to_datetime(df['datetime'])  # Pastikan kolom datetime dalam format datetime
