@@ -11,8 +11,8 @@ Proyek ini menganalisis dataset kualitas udara untuk memahami tren polusi dan fa
 ## Cara Menjalankan
 1. Instal dependensi: `pip install -r requirements.txt`
 2. Jalankan dashboard: `python dashboard/dashboard.py`
-3. Buka notebook untuk analisis: `jupyter notebook notebook.ipynb`
+3. Buka notebook untuk analisis: `notebook.ipynb`
 
 
-## Sumber Data
+## Dashboard
 Lihat `url.txt` untuk tautan dashboard
